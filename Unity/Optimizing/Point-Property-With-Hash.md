@@ -9,6 +9,7 @@
 미리 정수형 해쉬값을 저장해두어 사용하면 문자열을 해싱하는 과정을 반복해서 하지 않아도 됨. 
 ``` cs
 int animPropHash;
-animPropHash = Animator.StringToHash("AnimPropName");```
+animPropHash = Animator.StringToHash("AnimPropName");
+```
 
 참고:  [일반 최적화 - Unity 메뉴얼](https://docs.unity3d.com/kr/2021.3/Manual/BestPracticeUnderstandingPerformanceInUnity7.html)
